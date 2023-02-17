@@ -5,6 +5,7 @@
 body{
     font-family: 'Fjalla One', sans-serif;
     margin-left: 20px;
+    margin-right: 20px;
     color: black;
     min-height: 99vh;
 }
