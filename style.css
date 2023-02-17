@@ -210,7 +210,7 @@ body{
 }
 .project-page {
     display: grid;
-    grid-template-columns: repeat(auto-fill,170px);
+    grid-template-columns: repeat(auto-fill,minmax(170px,1fr));
     gap: 10px;
     justify-content: center;
     margin-bottom: 70px;
