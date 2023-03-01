@@ -1,9 +1,13 @@
 @font-face {
-    font-family: 'LeMurmure';
-    src: url(fonts/LeMurmure-Regular.woff2);
+    font-family: 'Millimetre Bold';
+    src: url(fonts/Millimetre-Bold_web.woff2);
+}
+@font-face {
+    font-family: 'Millimetre';
+    src: url(fonts/Millimetre-Regular_web.woff2);
 }
 body{
-    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin-left: 20px;
     margin-right: 20px;
     color: black;
@@ -13,7 +17,7 @@ body{
     background-color: rgb(245, 245, 245);
 }
 .header-title{
-    font-size: 20px;
+    font-size: 25px;
     text-transform: uppercase;
     font-weight: 900;
 
@@ -26,10 +30,10 @@ body{
     position: sticky;
     top: 0px;
     text-transform: uppercase;
-    font-size: 17px;
+    font-size: 20px;
     border-bottom: 1px solid #000000;
     background-color: rgb(245, 245, 245);
-    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Millimetre Bold', sans-serif;
     padding-top: 10px;
 }
 .header a {
@@ -153,55 +157,55 @@ body{
     text-decoration: none;
 }
 .g-home {
-    font-family: 'LeMurmure', sans-serif;
+    font-family: 'Millimetre', sans-serif;
     font-size: 55px;
     text-align: center;
     color: #ba9b6a;
 }
 .m-home {
-    font-family: 'LeMurmure', sans-serif;
+    font-family: 'Millimetre', sans-serif;
     font-size: 55px;
     text-align: center;
     color: #cdba8e;
 }
 .nexus-home {
-    font-family: 'LeMurmure', sans-serif;
+    font-family: 'Millimetre', sans-serif;
     font-size: 55px;
     text-align: center;
     color: rgb(89, 89, 89);
 }
 .taste-home {
-    font-family: 'LeMurmure', sans-serif;
+    font-family: 'Millimetre', sans-serif;
     font-size: 55px;
     text-align: center;
     color: #24b1ee;
 }
 .ttp-home {
-    font-family: 'LeMurmure', sans-serif;
+    font-family: 'Millimetre', sans-serif;
     font-size: 55px;
     text-align: center;
     color: #2e6870;
 }
 .fv-home {
-    font-family: 'LeMurmure', sans-serif;
+    font-family: 'Millimetre', sans-serif;
     font-size: 55px;
     text-align: center;
     color: rgb(89, 89, 89);
 }
 .jsv-home {
-    font-family: 'LeMurmure', sans-serif;
+    font-family: 'Millimetre', sans-serif;
     font-size: 50px;
     text-align: center;
     color: #d5896c;
 }
 .r-home {
-    font-family: 'LeMurmure', sans-serif;
+    font-family: 'Millimetre', sans-serif;
     font-size: 55px;
     text-align: center;
     color : #af739f;
 }
 .ldt-home {
-    font-family: 'LeMurmure', sans-serif;
+    font-family: 'Millimetre', sans-serif;
     font-size: 55px;
     text-align: center;
     color : #d68b2e;
@@ -265,26 +269,127 @@ span.texte {
     width:250px;
     position:static;
     margin: auto;
+    padding: 30px;
 }
-.footer-cop {
+/* .cop {
     font-family: 'Montserrat';
-    font-size: 13px;
-    position:fixed;
-    width: 480px;
-    height:auto;
-    right:0;
-    bottom:40px;
+    font-size: 17px;
+    margin: auto;
     font-weight: lighter;
+} */
+.contact{
+    display: grid;
+    /* grid-template-columns: 1fr 1fr; */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin-left: 90px;
+    margin-right: auto;
+    margin-top: 80px;
 }
-.a-propos{
+.contact a {
+    text-decoration: none;
+    color: rgb(109, 109, 109);
+}
+.a-propos {
     display: grid;
     grid-template-columns: 1fr 1fr;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     margin-left: 90px;
     margin-right: auto;
-    margin-top: 40px;
+    margin-top: 40px; 
+    margin-bottom: 80px;  
 }
+
+
+
+
+
+
+
+  .grid{
+    display:grid;
+    grid-template-columns:1fr 2fr 1fr;
+    font-family: 'Montserrat', sans-serif;
+    /* margin-left: 80px;
+    margin-right: 80px; */
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+  }
+  .intro{
+    font-family: 'Millimetre Bold', sans-serif;
+    font-size:40px;
+    padding:30px;
+    grid-column:1 / -1;
+    border-top:1px solid #000;
+    margin:0;
+    font-weight: bold;
+    margin-top: 60px;
+  }
+  .date{
+    padding:20px;
+    border-top:1px solid #000;
+    border-bottom:1px solid #000;
+    grid-column:1 / -1;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .lieu{
+    padding:20px;
+    font-size: 17px;
+    grid-column:1 / 2 ;
+    font-weight: 200;
+  }
+  .event{
+    padding:20px;
+    grid-column:2/-2;
+    font-size: 18px;
+  }
+  .event-1{
+    padding:20px;
+    grid-column:2/-2;
+    font-size: 18px;
+    font-weight: 900;
+  }
+  .ville{
+    padding:20px;
+    grid-column:3/-1;
+    font-size: 17px;
+    margin: auto;
+    font-weight: 200;
+  }
+  .lieu-2{
+    padding:20px;
+    font-size: 18px;
+    grid-column:1 / 2 ;
+  }
+  .event-2{
+    padding:20px;
+    grid-column:2/-1;
+    font-size: 18px;
+  }
+  .intro-2{
+    font-size:40px;
+    padding:30px;
+    grid-column:1 / -1;
+    margin:0;
+    font-weight: bold;
+    margin-top: 60px;
+    border-top:1px solid #000;
+    border-bottom:1px solid #000;
+  }
+.texte{
+    padding:10px;
+    grid-column:1/-2;
+    font-size: 18px; 
+}  
+.texte a {
+    text-decoration: none;
+    color: rgb(109, 109, 109);
+}
+
 
 /* MOBILE */
 
