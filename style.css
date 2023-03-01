@@ -301,13 +301,7 @@ span.texte {
     margin-bottom: 80px;  
 }
 
-
-
-
-
-
-
-  .grid{
+.grid{
     display:grid;
     grid-template-columns:1fr 2fr 1fr;
     font-family: 'Montserrat', sans-serif;
@@ -318,7 +312,7 @@ span.texte {
     margin-bottom: 100px;
 
   }
-  .intro{
+.intro{
     font-family: 'Millimetre Bold', sans-serif;
     font-size:40px;
     padding:30px;
@@ -328,7 +322,7 @@ span.texte {
     font-weight: bold;
     margin-top: 60px;
   }
-  .date{
+.date{
     padding:20px;
     border-top:1px solid #000;
     border-bottom:1px solid #000;
@@ -336,41 +330,41 @@ span.texte {
     font-size: 20px;
     font-weight: 600;
   }
-  .lieu{
+.lieu{
     padding:20px;
     font-size: 17px;
     grid-column:1 / 2 ;
     font-weight: 200;
   }
-  .event{
+.event{
     padding:20px;
     grid-column:2/-2;
     font-size: 18px;
   }
-  .event-1{
+.event-1{
     padding:20px;
     grid-column:2/-2;
     font-size: 18px;
     font-weight: 900;
   }
-  .ville{
+.ville{
     padding:20px;
     grid-column:3/-1;
     font-size: 17px;
     margin: auto;
     font-weight: 200;
   }
-  .lieu-2{
+.lieu-2{
     padding:20px;
     font-size: 18px;
     grid-column:1 / 2 ;
   }
-  .event-2{
+.event-2{
     padding:20px;
     grid-column:2/-1;
     font-size: 18px;
   }
-  .intro-2{
+.intro-2{
     font-size:40px;
     padding:30px;
     grid-column:1 / -1;
@@ -389,7 +383,10 @@ span.texte {
     text-decoration: none;
     color: rgb(109, 109, 109);
 }
-
+.texte a:hover {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
 
 /* MOBILE */
 
