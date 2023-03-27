@@ -284,6 +284,15 @@ span.texte {
     font-size: 18px;
     margin-left: 90px;
     margin-right: auto;
+    margin-top: 170px;
+}
+.contact2{
+    display: grid;
+    /* grid-template-columns: 1fr 1fr; */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    margin-left: 90px;
+    margin-right: auto;
     margin-top: 80px;
 }
 .contact a {
@@ -388,6 +397,10 @@ span.texte {
     color: rgb(0, 0, 0);
 }
 
+.autre {
+    font-size: 15px;
+    font-weight: 300;
+}
 /* MOBILE */
 
 /* TABLETTE */
