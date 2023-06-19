@@ -4,7 +4,7 @@
     
 }
 @font-face {
-    font-family: 'Millimetre',;
+    font-family: 'Millimetre';
     src: url(fonts/Grotesk-Reg.woff2);
 }
 body{
@@ -216,6 +216,12 @@ body{
     font-size: 55px;
     text-align: center;
     color : #F04064;
+}
+.tdc-home {
+    font-family: 'Millimetre', sans-serif;
+    font-size: 55px;
+    text-align: center;
+    color : #BE91AE;
 }
 .letter-home {
     font-family: 'Millimetre', sans-serif;
