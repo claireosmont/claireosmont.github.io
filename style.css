@@ -1,10 +1,11 @@
 @font-face {
     font-family: 'Millimetre Bold';
-    src: url(fonts/Millimetre-Bold_web.woff2);
+    src: url(fonts/Grotesk-Li.woff2);
+    
 }
 @font-face {
-    font-family: 'Millimetre';
-    src: url(fonts/Millimetre-Regular_web.woff2);
+    font-family: 'Millimetre',;
+    src: url(fonts/Grotesk-Reg.woff2);
 }
 body{
     font-family: 'Montserrat', sans-serif;
@@ -215,6 +216,12 @@ body{
     font-size: 55px;
     text-align: center;
     color : #F04064;
+}
+.letter-home {
+    font-family: 'Millimetre', sans-serif;
+    font-size: 55px;
+    text-align: center;
+    color : rgb(5, 86, 13);
 }
 .home-page {
     background-color: rgb(245, 245, 245);
