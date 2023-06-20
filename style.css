@@ -1,14 +1,15 @@
 @font-face {
     font-family: 'Millimetre Bold';
     src: url(fonts/Grotesk-Li.woff2);
-    
 }
+
 @font-face {
     font-family: 'Millimetre';
     src: url(fonts/Grotesk-Reg.woff2);
 }
 body{
     font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Moirai One', cursive; */
     margin-left: 20px;
     margin-right: 20px;
     color: black;
@@ -34,7 +35,8 @@ body{
     font-size: 18px;
     /* border-bottom: 1px solid #000000; */
     background-color: rgb(245, 245, 245);
-    font-family: 'Millimetre Bold', sans-serif;
+    /* font-family: 'Millimetre Bold', sans-serif; */
+    font-family: 'Moirai One', cursive;
     padding-top: 10px;
 }
 .header a {
@@ -323,9 +325,9 @@ span.texte {
     display:grid;
     grid-template-columns:1fr 2fr 1fr;
     font-family: 'Montserrat', sans-serif;
-    /* margin-left: 80px;
-    margin-right: 80px; */
-    margin: auto;
+    margin-left: 80px;
+    margin-right: 80px;
+
     margin-top: 50px;
     margin-bottom: 50px;
 
@@ -355,27 +357,37 @@ span.texte {
     font-weight: 200;
   }
 .event{
-    padding:20px;
+    padding:5px;
+    grid-column:2/-2;
+    font-size: 15px;
+    margin: auto;
+    font-weight: 300;
+  }
+  .event-3{
+    padding:5px;
     grid-column:2/-2;
     font-size: 18px;
+    margin: auto;
+ 
   }
 .event-1{
-    padding:20px;
+    padding:10px;
     grid-column:2/-2;
     font-size: 18px;
     font-weight: 900;
   }
 .ville{
-    padding:20px;
+    padding:10px;
     grid-column:3/-1;
-    font-size: 17px;
+    font-size: 15px;
     margin: auto;
     font-weight: 200;
   }
 .lieu-2{
-    padding:20px;
-    font-size: 18px;
+    padding:10px;
+    font-size: 19px;
     grid-column:1 / 2 ;
+    font-size: large;
   }
 .event-2{
     padding:20px;
@@ -429,6 +441,10 @@ span.texte {
         margin: auto;
         grid-column: span 1;  
     }
+    .page-imgLarge {
+        margin: auto;
+        grid-column: span 1;  
+    }
 }
 
 /* TABLETTE */
@@ -450,6 +466,10 @@ span.texte {
         margin: auto;
         grid-column: span 1;  
     }
+    .page-imgLarge {
+        margin: auto;
+        grid-column: span 1;  
+    }
 }
 /* DESKTOP */
 @media (min-width:731px) {
@@ -466,6 +486,10 @@ span.texte {
         grid-column: span 5;  
     }
     .page-imgM {
+        margin: auto;
+        grid-column: span 1;  
+    }
+    .page-imgLarge {
         margin: auto;
         grid-column: span 1;  
     }
