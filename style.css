@@ -31,7 +31,7 @@ font-family: 'BIZ UDMincho', serif;
 font-weight: 700;
 */
 
-@media (min-width:640px){
+@media (min-width:700px){
     .home{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -39,7 +39,7 @@ font-weight: 700;
         max-height: 1fr;
     }
 }
-@media (min-width:640px){
+@media (min-width:700px){
     .home-page{
         display: grid;
         grid-template-columns: 1fr 3fr;
@@ -57,7 +57,35 @@ font-weight: 700;
         grid-template-columns: 1fr 3fr;
         min-height: 99vh;
         max-height: 1fr;
+    }   
+}   
+@media (max-width:700px){
+    .home-page{
+        display: grid;    
+        grid-template-columns: auto;
     }    
+    .projet-page{
+        display: grid;
+        min-height: 99vh;
+        max-height: 1fr;
+        margin: 0px;
+        padding :0px; 
+    }    
+    .propos-page{
+        max-width: 100%;
+        overflow:hidden;
+        text-align:center;
+        margin: 0px;
+        padding :0px;  
+        display: grid;    
+        grid-template-columns: auto;
+    }  
+    .cv {
+        padding: 0;
+        margin: 0;
+        font-size: 10px;
+    }
+          
 }
 
 
@@ -114,6 +142,21 @@ body {
     table-layout: auto;
     width: 100%;
     font-family: 'Regular', sans-serif;
+}
+
+.contenu-index {
+    font-size: 20px;
+    padding: 15px;
+    margin: 0;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: start;
+    table-layout: auto;
+    width: 100%;
+    font-family: 'Bold', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 
@@ -384,19 +427,18 @@ body {
 
 .projets {
     background-color: rgb(230, 230, 230);
-    padding: 0px 150px;
+    /* padding: 0px 150px; */
     align-items: center;
     border: 1px #000000;
     font-family: 'Regular', sans-serif;
     font-size: 20px;
     text-transform: uppercase;
-    max-width: 100%;
+    max-width: 70%;
     cursor: url(img/curseur.png), default;
     text-align: center;
     margin:auto;
-    max-width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: auto auto;
 
 } 
 
@@ -612,7 +654,7 @@ img {
 
 .table-index{
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: auto;
     align-items: center;
     padding: 0% 5% 0% 20%;
     margin: 0;
@@ -744,13 +786,16 @@ a.table-index {
     cursor: url(img/curseur.png), default;
     font-family: 'Regular', sans-serif;
     font-size: 15px;
-    margin: 70px;
-    columns: 3;
-    column-gap: 4em;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-transform: none;
+
+        /* columns: 3;
+    column-gap: 4em; */
     
-    padding: 10px;
+    /* padding: 10px;
     border: groove 3px;
-    column-rule: inset 1px;
+    column-rule: inset 1px; */
 }
 .sstitre-projet{
     cursor: url(img/curseur.png), default;
