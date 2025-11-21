@@ -142,25 +142,12 @@ body {
     table-layout: auto;
     width: 100%;
     font-family: 'Light', sans-serif;
-
 }
-.contenu-2 {
-    padding: 15px;
-    margin: 0;
-    text-decoration: none;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: start;
-    table-layout: auto;
-    width: 100%;
-    font-family: 'Regular', sans-serif;
-}
-
-.contenu-2 a{
+.contenu a{
     text-decoration: none;
     color: #000000;
 }
-.contenu-2 :hover{
+.contenu :hover{
     color: rgb(115, 130, 220);
     cursor: url(img/vcurseur.png), default;
 }
