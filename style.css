@@ -154,8 +154,17 @@ body {
     table-layout: auto;
     width: 100%;
     font-family: 'Regular', sans-serif;
-
 }
+
+.contenu-2 a{
+    text-decoration: none;
+    color: #000000;
+}
+.contenu-2 :hover{
+    color: rgb(115, 130, 220);
+    cursor: url(img/vcurseur.png), default;
+}
+
 
 .contenu-index {
     font-size: 25px;
