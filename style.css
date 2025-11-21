@@ -144,6 +144,18 @@ body {
     font-family: 'Light', sans-serif;
 
 }
+.contenu-2 {
+    padding: 15px;
+    margin: 0;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: start;
+    table-layout: auto;
+    width: 100%;
+    font-family: 'Regular', sans-serif;
+
+}
 
 .contenu-index {
     font-size: 25px;
